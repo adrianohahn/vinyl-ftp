@@ -39,9 +39,12 @@
   "devDependencies": {
     "@types/vinyl-fs": "^2.4.5",
     "istanbul": "^0.4.5",
-    "mocha": "^3.2.0",
-    "rmdir": "^1.2.0",
-    "vinyl-fs": "^2.4.4"
+    "mocha": "^8.3.1",
+    "rmdir": "^1.0.0",
+    "vinyl-fs": "^3.0.3"
   },
-  "types": "./index.d.ts"
+  "types": "./index.d.ts",
+  "resolutions": {
+    "node.extend": "2.0.1"
+  }
 }
